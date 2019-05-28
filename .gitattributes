@@ -1,0 +1,8 @@
+*.jpg text !filter !merge !diff
+*.jpeg text !filter !merge !diff
+*.JPG text !filter !merge !diff
+*.png text !filter !merge !diff
+*.sla text !filter !merge !diff
+*.sce text !filter !merge !diff
+*.pdf text !filter !merge !diff
+*.webp text !filter !merge !diff
