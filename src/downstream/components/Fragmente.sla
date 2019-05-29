@@ -34,7 +34,7 @@
         <COLOR NAME="w" SPACE="RGB" R="255" G="255" B="255"/>
         <HYPHEN/>
         <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
-        <STYLE NAME="p" PARENT="ImportedDefault Paragraph Style (Typographie)" LINESP="15" VOR="1" NACH="1" CPARENT="p"/>
+        <STYLE NAME="p" PARENT="Default Paragraph Style" CPARENT="p"/>
         <STYLE NAME="t" PARENT="ImportedDefault Paragraph Style (Typographie)" LINESP="35" VOR="1" NACH="1" CPARENT="t"/>
         <STYLE NAME="t g" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="t g"/>
         <STYLE NAME="t w" PARENT="ImportedDefault Paragraph Style (Typographie)" FCOLOR="w"/>
@@ -42,16 +42,16 @@
         <STYLE NAME="ut g" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="ut g" SCALEH="100"/>
         <STYLE NAME="ut w" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="ut w" FCOLOR="w"/>
         <STYLE NAME="h1" PARENT="ImportedDefault Paragraph Style (Typographie)" LINESP="25" VOR="1" NACH="1" CPARENT="h1"/>
-        <STYLE NAME="h1 g" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="h1 g"/>
+        <STYLE NAME="h1 g" PARENT="Default Paragraph Style" LINESP="25" CPARENT="h1 g"/>
         <STYLE NAME="h1 w" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="h1 g" FCOLOR="w"/>
         <STYLE NAME="h2" PARENT="ImportedDefault Paragraph Style (Typographie)" LINESP="21" VOR="1" NACH="1" CPARENT="h2"/>
-        <STYLE NAME="h2 g" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="h2 g"/>
+        <STYLE NAME="h2 g" PARENT="Default Paragraph Style" LINESP="21" CPARENT="h2 g"/>
         <STYLE NAME="h2 w" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="h2 w"/>
         <STYLE NAME="h3" PARENT="ImportedDefault Paragraph Style (Typographie)" LINESP="19" VOR="1" NACH="1" CPARENT="h3"/>
         <STYLE NAME="h3 g" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="h3 g"/>
         <STYLE NAME="h3 w" PARENT="ImportedDefault Paragraph Style (Typographie)" CPARENT="h3 w"/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="DejaVu Sans Book" FONTSIZE="12" FONTFEATURES="" FEATURES="inherit" FCOLOR="Black" FSHADE="100" HyphenWordMin="3" SCOLOR="Black" BGCOLOR="None" BGSHADE="100" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_US"/>
-        <CHARSTYLE CNAME="p" CPARENT="ImportedDefault Character Style (Typographie)" FONT="Jost* Book" FONTFEATURES="-clig,-liga" FCOLOR="s"/>
+        <CHARSTYLE CNAME="p" CPARENT="ImportedDefault Character Style (Typographie)" FONT="Jost* Book" FONTSIZE="12" FONTFEATURES="-clig,-liga" FCOLOR="s"/>
         <CHARSTYLE CNAME="p bold" CPARENT="p" FONT="Jost* Bold"/>
         <CHARSTYLE CNAME="p italic" CPARENT="p" FONT="Jost* BookItalic" FONTFEATURES="-clig,-liga"/>
         <CHARSTYLE CNAME="t" CPARENT="ImportedDefault Character Style (Typographie)" FONT="Atlas Solid" FONTSIZE="32" FONTFEATURES="-clig,-liga" FCOLOR="s"/>
@@ -136,6 +136,10 @@
         <MASTERPAGE PAGEXPOS="100.001" PAGEYPOS="20.002" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="Normal" MNAM="" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100.001" PAGEYPOS="20.002" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <MASTEROBJECT XPOS="100.001" YPOS="20.002" OwnPage="0" ItemID="2147208084" PTYPE="6" WIDTH="595.275590551181" HEIGHT="841.889763779528" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="b" SHADE2="99" PLINEART="1" path="M0 0 L595.276 0 L595.276 841.89 L0 841.89 L0 0 Z" copath="M0 0 L595.276 0 L595.276 841.89 L0 841.89 L0 0 Z" OnMasterPage="Normal" gXpos="100.001" gYpos="20.002" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="425.780006313053" YPOS="756.375952755905" OwnPage="0" ItemID="26179605" PTYPE="6" WIDTH="269.496584238128" HEIGHT="49.8836877460629" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="go" PLINEART="1" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="go" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L269.497 0 L269.497 49.8837 L0 49.8837 L0 0 Z" copath="M0 0 L269.497 0 L269.497 49.8837 L0 49.8837 L0 0 Z" gXpos="425.780006313053" gYpos="756.375952755905" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="52.7646666666667" YPOS="846.261640501968" OwnPage="0" ItemID="2141808388" PTYPE="6" WIDTH="946.050679292773" HEIGHT="157.998" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="gr" PLINEART="1" TransValue="0.4" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="gr" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0.52" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L946.051 0 L946.051 157.998 L0 157.998 L0 0 Z" copath="M0 0 L946.051 0 L946.051 157.998 L0 157.998 L0 0 Z" gXpos="52.7646666666667" gYpos="846.261640501968" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="75.7826387897809" YPOS="115.760031496063" OwnPage="0" ItemID="11662805" PTYPE="6" WIDTH="275.261983257463" HEIGHT="678.655322834646" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="gr" PLINEART="1" TransValue="0.4" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="gr" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0.52" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L275.262 0 L275.262 678.655 L0 678.655 L0 0 Z" copath="M0 0 L275.262 0 L275.262 678.656 L0 678.656 L0 0 Z" gXpos="75.7826387897809" gYpos="115.760031496063" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="473.552362701977" YPOS="127.905297244094" OwnPage="0" ItemID="10335749" PTYPE="6" WIDTH="275.261983257463" HEIGHT="693.986466535433" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="gr" PLINEART="1" TransValue="0.4" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="gr" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0.52" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L275.262 0 L275.262 693.986 L0 693.986 L0 0 Z" copath="M0 0 L275.262 0 L275.262 693.986 L0 693.986 L0 0 Z" gXpos="473.552362701977" gYpos="127.905297244094" gWidth="0" gHeight="0" LAYER="0"/>
         <PAGEOBJECT XPOS="147.989569553806" YPOS="819.057118110237" OwnPage="0" ItemID="2143686420" PTYPE="6" WIDTH="37.7384514435697" HEIGHT="45.8917637795278" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="gr" PLINEART="1" TransValue="0.4" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="gr" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0.52" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L37.7385 0 L37.7385 45.8918 L0 45.8918 L0 0 Z" copath="M0 0 L37.7385 0 L37.7385 45.8918 L0 45.8918 L0 0 Z" gXpos="147.989569553806" gYpos="819.057118110237" gWidth="0" gHeight="0" LAYER="0"/>
         <PAGEOBJECT XPOS="171.039298980665" YPOS="903.936228809635" OwnPage="0" ItemID="9343013" PTYPE="6" WIDTH="66.0985831403432" HEIGHT="22.0361014365392" FRTYPE="0" CLIPEDIT="0" ROT="270" PWIDTH="1" PCOLOR="w" PLINEART="1" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="w" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0.2" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L66.0986 0 L66.0986 22.0361 L0 22.0361 L0 0 Z" copath="M0 0 L66.0986 0 L66.0986 22.0361 L0 22.0361 L0 0 Z" gXpos="171.039298980666" gYpos="903.936228809635" gWidth="0" gHeight="0" LAYER="0"/>
         <PAGEOBJECT XPOS="159.111467809171" YPOS="825.6" OwnPage="0" ItemID="2140310340" PTYPE="6" WIDTH="22.9458818897639" HEIGHT="44.7957007874013" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="go" PLINEART="1" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="go" SOFTSHADOWBLURRADIUS="5.00031496062992" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L22.9459 0 L22.9459 44.7957 L0 44.7957 L0 0 Z" copath="M0 0 L22.9459 0 L22.9459 44.7957 L0 44.7957 L0 0 Z" gXpos="159.111467809171" gYpos="825.6" gWidth="0" gHeight="0" LAYER="0"/>
@@ -163,6 +167,39 @@
                 <DefaultStyle ALIGN="1" CPARENT="t g"/>
                 <ITEXT CPARENT="t g" CH="Inhalt"/>
                 <trail ALIGN="1"/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="97.1229044307201" YPOS="161.003" OwnPage="0" ItemID="2142623604" PTYPE="6" WIDTH="605.391762235947" HEIGHT="612.380826771654" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="w" PLINEART="1" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="w" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0.2" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L605.392 0 L605.392 612.381 L0 612.381 L0 0 Z" copath="M0 0 L605.392 0 L605.392 612.381 L0 612.381 L0 0 Z" gXpos="97.1229044307201" gYpos="161.003" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="511.173354330709" YPOS="145.252968503937" OwnPage="0" ItemID="2142055572" PTYPE="6" WIDTH="200.02" HEIGHT="31.500062992126" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="go" PLINEART="1" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="go" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L200.02 0 L200.02 31.5001 L0 31.5001 L0 0 Z" copath="M0 0 L200.02 0 L200.02 31.5001 L0 31.5001 L0 0 Z" gXpos="511.173354330709" gYpos="145.252968503937" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="85.7180209973756" YPOS="756.375952755905" OwnPage="0" ItemID="942421" PTYPE="6" WIDTH="200.02" HEIGHT="31.500062992126" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="go" PLINEART="1" HASSOFTSHADOW="1" SOFTSHADOWXOFFSET="0" SOFTSHADOWYOFFSET="0" SOFTSHADOWCOLOR="go" SOFTSHADOWBLURRADIUS="5" SOFTSHADOWSHADE="100" SOFTSHADOWBLENDMODE="0" SOFTSHADOWOPACITY="0" SOFTSHADOWERASE="0" SOFTSHADOWOBJTRANS="0" path="M0 0 L200.02 0 L200.02 31.5001 L0 31.5001 L0 0 Z" copath="M0 0 L200.02 0 L200.02 31.5001 L0 31.5001 L0 0 Z" gXpos="85.7180209973756" gYpos="756.375952755905" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="157.008874015748" YPOS="205.09428617126" OwnPage="0" ItemID="11498309" PTYPE="4" WIDTH="483.183354330709" HEIGHT="524.330708661417" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="2" COLGAP="14.1732283464567" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L483.183 0 L483.183 524.331 L0 524.331 L0 0 Z" copath="M0 0 L483.183 0 L483.183 524.331 L0 524.331 L0 0 Z" gXpos="157.008874015748" gYpos="205.09428617126" gWidth="0" gHeight="0" ALIGN="4" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle ALIGN="4" CPARENT="p"/>
+                <ITEXT CH="Vom Blindtext"/>
+                <para PARENT="h1 g" ALIGN="4"/>
+                <ITEXT CPARENT="p" CH="Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen Sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht - ein geradezu unorthographisches Leben."/>
+                <para PARENT="p" ALIGN="4"/>
+                <ITEXT CH="Die Kopie"/>
+                <para PARENT="h2 g"/>
+                <ITEXT CPARENT="p" CH="Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme, wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort „und“ und das Blindtextchen solle umkehren und wieder in sein eigenes, sicheres Land zurückkehren."/>
+                <para PARENT="p" ALIGN="4"/>
+                <ITEXT CPARENT="p" CH="Doch alles Gutzureden konnte es nicht überzeugen, und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Langue und Parole betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten. Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immer noch."/>
+                <para PARENT="p" ALIGN="4"/>
+                <ITEXT CPARENT="p" CH="Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme, wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort „und“ und das Blindtextchen solle umkehren und wieder in sein eigenes, sicheres Land zurückkehren."/>
+                <para PARENT="p" ALIGN="4"/>
+                <ITEXT CH="Wahrheit"/>
+                <para PARENT="h2 g"/>
+                <ITEXT CPARENT="p" CH="Doch alles Gutzureden konnte es nicht überzeugen, und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Langue und Parole betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten. Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immer noch."/>
+                <para PARENT="p" ALIGN="4"/>
+                <ITEXT CPARENT="p" CH="Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme, wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort „und“ und das Blindtextchen solle umkehren und wieder in sein eigenes, sicheres Land zurückkehren."/>
+                <para PARENT="p" ALIGN="4"/>
+                <ITEXT CPARENT="p" CH="Doch alles Gutzureden konnte es nicht überzeugen, und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Langue und Parole betrunken machten und es dann in ihre Agentur schleppten"/>
+                <ITEXT CH="."/>
+                <para PARENT="p" ALIGN="4"/>
+                <ITEXT CH="Die Ferne"/>
+                <para PARENT="h2 g"/>
+                <ITEXT CPARENT="p" CH="Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen Sie in Buchstabhausen an der Küste des Semantik"/>
+                <trail PARENT="p" ALIGN="4"/>
             </StoryText>
         </PAGEOBJECT>
     </DOCUMENT>
