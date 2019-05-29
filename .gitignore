@@ -1,2 +1,3 @@
 dependencies/
 dist/
+*_autosave*.sla
