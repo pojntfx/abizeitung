@@ -1,3 +1,4 @@
 dependencies/
 dist/
 *_autosave*.sla
+.ScribusThumbs
