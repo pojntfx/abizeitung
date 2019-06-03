@@ -13,7 +13,7 @@ before_script:
 - wget https://indestructibletype.com/Jost.zip -O /tmp/Jost.zip
 - unzip /tmp/Jost.zip -d /tmp/jost
 - cp /tmp/jost/TrueType/* ~/.local/share/fonts
-- mkdir -p dist/
+- mkdir -p public/
 
 pages:
   stage: deploy
@@ -21,4 +21,4 @@ pages:
   - ./build.sh
   artifacts:
     paths:
-      - dist
+      - public

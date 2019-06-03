@@ -12,7 +12,7 @@
 
 ```plaintext
 Abizeitung/
-    .gitignore # dependencies/, dist/
+    .gitignore # dependencies/, public/
     dependencies.csv
     TODO.md
     src/

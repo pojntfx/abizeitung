@@ -12,10 +12,10 @@ function export_as_pdf() {
 
 for file in ${PWD}/src/downstream/documents/*.sla; do
         export_as_pdf "${file}"
-        mv "${file}.pdf" "${PWD}/dist/"
+        mv "${file}.pdf" "${PWD}/public/"
 done
 
-cat >dist/index.html <<EOF
+cat >public/index.html <<EOF
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,11 +30,11 @@ cat >dist/index.html <<EOF
     <ul style="overflow-x: auto;">
 EOF
 
-for file in dist/*.pdf; do
-        echo "<li><a href='${file#"dist/"}'>${file#"dist/"}</a></li>" >>dist/index.html
+for file in public/*.pdf; do
+        echo "<li><a href='${file#"public/"}'>${file#"public/"}</a></li>" >>public/index.html
 done
 
-cat >>dist/index.html <<EOF
+cat >>public/index.html <<EOF
     </ul>
 </body>
 
