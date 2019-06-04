@@ -32,6 +32,9 @@ cat >public/index.html <<EOF
         <strong style="color: red">Achtung!</strong> Dies sind <em>automatisiert kompilierte, ungeprüfte</em> "Nightly"-Versionen aus dem CI/CD-System.
     </p>
     <p>
+        Momentaner Status: <a href="https://gitlab.com/pojntfx/abizeitung/commits/master"><img alt="pipeline status" src="https://gitlab.com/pojntfx/abizeitung/badges/master/pipeline.svg" /></a>
+    </p>
+    <p>
         Unter <a href="https://gitlab.com/pojntfx/abizeitung" target="_blank">gitlab.com/pojntfx/abizeitung</a> findet sich der Quellcode. Dies ist freie Software und freie Kultur, jeder darf gerne mitarbeiten!
     </p>
     <ul style="overflow-x: auto;">
