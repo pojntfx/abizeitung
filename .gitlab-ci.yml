@@ -6,7 +6,7 @@ before_script:
   - apt install -y software-properties-common
   - add-apt-repository -y ppa:scribus/ppa
   - apt update
-  - apt install -y scribus-trunk xvfb unzip wget
+  - apt install -y scribus-trunk xvfb unzip wget git
   - mkdir -p ~/.local/share/fonts/
   - wget https://www.freebestfonts.com/download?fn=284 -O ~/.local/share/fonts/AtlasRegular.ttf
   - wget https://www.freebestfonts.com/download?fn=283 -O ~/.local/share/fonts/AtlasSolid.ttf
