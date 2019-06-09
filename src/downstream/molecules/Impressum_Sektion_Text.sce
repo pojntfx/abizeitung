@@ -1,76 +1,80 @@
-<SCRIBUSELEMUTF8 previewData="iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFEElEQVRoge2Yy29d1RXGv2+tfW5sxxfbufccO+YS83Arg3m0VFF4FBWoygCJ/gXtoFUHRGLSx7yKBJWq/gVVpQ6oGqmCAYOqEiVqaSBYKZJxISBRQRpjEnwfceqUayf3nL1WByaUWsFJbd86ae9vsqW9ttZjv/RpAf8j6KGDEzN/PHZ/rW85PjN1S/8P/nziNyf6lmZ+feCu8sFvPlz59u9fOnBz3uj87Ojs8nN9S88eeez+ke9M3zrw/a8fGP7u0dmfn+xbmv3VFyb6fvj62wszhw79dHGnChEAWJ07XwGAocGwCgwYAKQjoT01MdDC4MTC2tKX7wSAUiIRJNKR0L7k5MZs1zLwk6n/dvI9euwg0iW/oVsxmGXZj0jO0f2LkOLlGPUJEV8A2O/OD0Pw9pkzzVe3Gmg0TZ8GvQrq8+6ugB0A5E0AbdJSd2mS/Eu9Xm9sNoYC4Ab2jWybgevG9XPr433e3L8RxqvVe5zMEEKrKIr+EALY6VQMOB1FChE5vZVdusToaPV7YnxXzS7GUsmQ554DTnI0hOB5njdK7itR5MEQ44s5uV/Ijop8aO5DJpKY2XxCZu4eCuAfiUilKIqyi5wSI8cQwry7l9XsgpnVQH6AJLkDACTGfaOjlUe3WgiNp01kVx5CuSiK6CFcUPLLJGdRFG0FpnKRfjU75uRgiTznqhc67kKyMLMlETm/di3hidg+Bpio7s2y5tscGxubNrOHROQVMxsWs2EmyaKZDQFoi/uki8whxonFZvN3mz+RPfe5BxWJHZjeLmYnompHzfYzxpdycn8g34mqw2bWIZk1Go0jAOJWN7Gr1Gq1/u30xzRNJ0WsAgSY2U0kPyJZrJmL3QBvA/RNdw8ki3q9fnyLMQWAbcK2IcHdp4LrQoR/I3H/g6leDGZqwGA0jkXgt6roF+Cri/X6s5vNfixNn3LxJXdMAjJD+j5A5gHA3e+l+1mIr5I25560NvPBfPqVfXLcYXx8fAAAxsfHq5tN/EqxPkulUpnaNzQ0cqV1GzreW61+Rdzv6IjMqGphZnvVfQghtJDn8BBWA1CNnU61UD3p7osicre6r3zUbL5ytYGyLHuS5IsAsm24npfn0sObnkZpehqldfNSq9X6u3A6XUNwZf3TLQ22ZZhl1R8D8pq7P67AMSASLiuuelHdV02KcyJ9p6woDjptWbV0OMbOtwB94T95kHuz6pMRMkhyjoyFu76zHYrh00LGqtWvRTJLkuK42a6y5HmMgZOAnjKz25vN5nP4l96xT0b/zHh1haTpQwBAsT1Q+cByPFDJmr9otfbc6x600Wgc27aiPmcE1oTlNQ2zLHuQZnuMXKDZLSrSMpFziPFWJZdMVVEUiOT54K5G3l1vNn+504mvR8vl8g0O3Kmqf3My0n0IIssQSZy8AKBC1dPiXltstf7UXll5Y6eT/r/jmv1iN4KjafqMk0fFfdzIM+L+iIscAbAbwMx2fpHdRG8YGFgWYDdU583MQpL8VfJ82M0Q3VEul2O73W5f2dW1hVySK9eTJLkc1+X7ANbeyNPUeBgoPYoYF41cJm0C8Lfq9bPdUaldYn0r5nJtmmuekKbpPRrjJFUbBbA7ESnlZsdJ3mVmZ1ut1uxOJ3k1BBGZIFAvgI8TkREj3yP5QOJ+MpJfStPUReTvADIAt9Xr9cM7nfRmuS6u12X7Wq46j7UTaAMYJfn+VvtaPXr06NGjR48ePXr02C7+CaJtRHzB0g5XAAAAAElFTkSuQmCC" YP="410.141732283464" XP="39.9999999999999" H="377.574803149607" Version="1.5.5.svn" COUNT="2" W="515.275590551181">
- <COLOR NAME="Black" Y="0" C="0" M="0" K="100" SPACE="CMYK"/>
- <COLOR NAME="White" Y="0" C="0" M="0" K="0" SPACE="CMYK"/>
- <COLOR NAME="b" R="35" G="46" B="77" SPACE="RGB"/>
- <COLOR NAME="go" R="216" G="175" B="51" SPACE="RGB"/>
- <COLOR NAME="gr" R="235" G="235" B="235" SPACE="RGB"/>
- <COLOR NAME="s" R="0" G="0" B="0" SPACE="RGB"/>
- <COLOR NAME="w" R="255" G="255" B="255" SPACE="RGB"/>
- <STYLE DROP="0" DROPLIN="2" DefaultStyle="1" HyphenConsecutiveLines="2" ParagraphEffectOffset="0" FIRST="0" BCOLOR="None" Numeration="0" Bullet="0" NACH="0" DIRECTION="0" RMARGIN="0" LINESP="15" LINESPMode="0" ALIGN="0" INDENT="0" VOR="0" NAME="Default Paragraph Style" BSHADE="100"/>
- <CHARSTYLE SCALEV="100" FONTFEATURES="" FEATURES="inherit" TXTULW="-0.1" DefaultStyle="1" TXTOUT="1" TXTSHX="5" TXTSTW="-0.1" FONTSIZE="12" FONT="DejaVu Sans Book" TXTSTP="-0.1" LANGUAGE="en_US" SCOLOR="Black" BASEO="0" BGCOLOR="None" HyphenWordMin="3" SSHADE="100" FCOLOR="Black" FSHADE="100" TXTULP="-0.1" TXTSHY="-5" CNAME="Default Character Style" KERN="0" SCALEH="100" BGSHADE="100"/>
- <ITEM BEXTRA="0" PICART="1" gWidth="385.99275590551" LOCALY="0" copath="M0 0 L220.224 0 L220.224 43.2533 L0 43.2533 L0 0 Z" BASEOF="0" SOFTSHADOWBLURRADIUS="1.41732283464567" SOFTSHADOWOBJTRANS="0" AUTOTEXT="0" SOFTSHADOWERASE="0" WIDTH="220.223779527559" PLTSHOW="0" OwnPage="1" SCALETYPE="1" ItemID="1826154860" SOFTSHADOWXOFFSET="0" gHeight="258.686299212599" path="M0 0 L220.224 0 L220.224 43.2532 L0 43.2532 L0 0 Z" COLUMNS="1" SOFTSHADOWBLENDMODE="0" PTYPE="4" NEXTITEM="-1" ANNAME="Impressum_Sektion_Text" SOFTSHADOWSHADE="100" LOCALROT="0" SOFTSHADOWCOLOR="go" SOFTSHADOWOPACITY="0" REXTRA="0" LOCALX="0" XPOS="39.9999999999999" PWIDTH="1" ALIGN="0" FLOP="0" gYpos="-100.778267716535" gXpos="-64.641417322839" CLIPEDIT="1" COLGAP="0" textPathType="0" LOCALSCY="1" VAlign="1" YPOS="410.141732283464" PLINEART="1" RATIO="1" SOFTSHADOWYOFFSET="0" HASSOFTSHADOW="1" FRTYPE="0" BACKITEM="-1" relativePaths="1" LOCALSCX="1" LAYER="0" TEXTRA="0" HEIGHT="43.2532283464567" EXTRA="0" textPathFlipped="0">
+<SCRIBUSELEMUTF8 YP="28.3464566929131" W="595.275590551181" COUNT="2" previewData="iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEnklEQVRoge3XT2zTZRgH8Od53vf9rf31z+rarWUbkbGFuYwJcvKGJ2NIDN48auKBGBNORjl5VG8mRs+eTPRg4sGgxqAkmEDCwWAA45CBc2xd23Ud0K399X2ex4NsEMGI7QhIfp/T06Z5v/2m/f3e3wsQiz0QuDl8dGz8xBvvHf7k3aNfvD5cCG68+s7skfeP7v7Ui9BTY8nqybNr4x9/vrT3gzfHTu6fzJS/O7M6nkxQhwiUAPTYh1cPIeL1h1WENgdRQIDFgcASI6ICACT6wKeTFB3Yk646R6yqOwEA1lvs+gLy6SRFgSXO54ImQGP8YZWIPYq2rpFicfBlYr3MJE+iUIRWyyLmEBEfB3DVVqvVaDQajW6DSqXBt9HrCbU4AyDnVXEHAM8tL6+e354qt9G/f+TRZTeHYrG4i5ktEeWJ/JqItcZoPzMmE+322fm1tdVegkqlwkHvod8YUyERZ8g3WmxqiJiuVquXei1iNocwDHcx84JDHCGGm0I0YgQ6YKTZMW48DMPs+vp6udugMEyPqmrCAnSEaEEZhsnagqpKGIbZbDb7dBiGe5rN5uVeS91lehoCAIBcLpfb9sW32dbFXiqVdqlqWlWHAaBMxAkR0zIigRjTb0VWIODEtWv1M90EDQ0NPY+IiyIyaozU/762Ol8HAFhcXJ3vqUg+nx9xzuUAIlV1JQCoGO+9B5gi52bV+91gzBVE1HK5fKGbsNh92PpFRgYGRr1zo8A8I4g/EBETyWSno3MOIBupLhHRvmq1eryboFIp/xYwNQHlBho4K2JfQPQ/GgNZ70GXl1e+35Yiw4XCJAQBeu/z1vp5jmi/CYJLrVaLgiAYYuaGMZrzHhatiFXnNlQ1W6lUzt1PULFQeFGJ5okoIOa+SLVCRHmHXttMdSIaE5ErxugUIiyJmBURmQ47nVNR0u0XobqIbABAxlrIeA+LtVpt9q4im6anIbhwAeTWSw8AMDEBfQATUKvVkt3u7qVC4aAhiTpg04j4GzPPhJ3OqVZf304DsENJ2kQ8BwDAHAwTs1crG+gpKca0AABUOxkRihBxrFqtfrn5/R4rt2+/g4OvgJGLImaECIYB5CKwPukVT6fT6Xnvmzu9N8+ISBSG4TcbGzdfWl6ufXa/QcVicUZErDEmJyJ1InqCmUMiqhsTLbbbxES0zzl/XlVxaanxe1dFisXiXmaOjDEdIsojtire0wFEe05E7K3HCAQA/S8B/+TWXzjajrUeK3fs7IXniHjOe5czIgEiJiLVHADMBqokzpleNsKhoaEjiHJNldqIkiCvOUD8hQkmEeG6KvVHUfRVtzcTe8d4ldlkAbTEROW/thEzb0SybG2/ZV4ZGRl4tttHFACoeq8/Oef7y+X6xc03c7lc1Vpbr9UqN7pcN/ZIuvOo+xqi/AygTRGYQjXDpHqaifKVSuXbXoOKxfxhAEwBg7a9/7qXY/O9bB2sUqn0dWaIAMwAkSwomD/IQppZSwXnFtba7VYvQalUZgqAF5Dsr8aYoWQyOZrJZAqpVKrUbDaXe69ybzgxMdEH8P84VMVisVgsFovFYrFYLBaLPXB/App3Oh+h7mFdAAAAAElFTkSuQmCC" H="374.173228346458" Version="1.5.5.svn" XP="0">
+ <COLOR SPACE="CMYK" C="0" M="0" K="100" NAME="Black" Y="0"/>
+ <COLOR SPACE="CMYK" C="0" M="100" K="0" NAME="FromPDF#00ffff00" Y="100"/>
+ <COLOR SPACE="CMYK" C="0" M="0" K="0" NAME="White" Y="0"/>
+ <COLOR SPACE="RGB" G="46" B="77" NAME="b" R="35"/>
+ <COLOR SPACE="RGB" G="175" B="51" NAME="go" R="216"/>
+ <COLOR SPACE="RGB" G="235" B="235" NAME="gr" R="235"/>
+ <COLOR SPACE="RGB" G="0" B="0" NAME="s" R="0"/>
+ <COLOR SPACE="RGB" G="255" B="255" NAME="w" R="255"/>
+ <STYLE LINESPMode="0" HyphenConsecutiveLines="2" NACH="0" NAME="Default Paragraph Style" DIRECTION="0" Numeration="0" LINESP="15" ALIGN="0" DROPLIN="2" BSHADE="100" RMARGIN="0" Bullet="0" VOR="0" ParagraphEffectOffset="0" BCOLOR="None" INDENT="0" DefaultStyle="1" FIRST="0" DROP="0"/>
+ <CHARSTYLE BASEO="0" FONTSIZE="12" KERN="0" BGSHADE="100" SCALEV="100" FONT="DejaVu Sans Book" TXTOUT="1" TXTULW="-0.1" HyphenWordMin="3" FONTFEATURES="" SSHADE="100" TXTULP="-0.1" BGCOLOR="None" TXTSHY="-5" FEATURES="inherit" CNAME="Default Character Style" TXTSTW="-0.1" FSHADE="100" TXTSHX="5" TXTSTP="-0.1" LANGUAGE="en_US" SCALEH="100" FCOLOR="Black" DefaultStyle="1" SCOLOR="Black"/>
+ <ITEM textPathFlipped="0" BACKITEM="-1" COLGAP="14.1732283464567" YPOS="113.385826771654" XPOS="0" NEXTITEM="-1" VAlign="0" ROT="360" gXpos="953.552181102362" relativePaths="1" LOCALSCX="1" copath="M0 0 L595.276 0 L595.276 289.134 L0 289.134 L0 0 Z" PWIDTH="1" LOCALSCY="1" BEXTRA="14.1732283464567" LAYER="0" PTYPE="4" gYpos="257.716661417324" HEIGHT="289.133858267717" gHeight="258.686299212598" COLUMNS="2" gWidth="385.99275590551" REXTRA="28.3464566929134" AUTOTEXT="0" WIDTH="595.275590551181" RATIO="1" LOCALROT="0" TEXTRA="4.25196850393701" path="M0 0 L595.276 0 L595.276 289.134 L0 289.134 L0 0 Z" ANNAME="Impressum_Sektion_Text" OwnPage="3" PLTSHOW="0" BASEOF="0" LOCALY="0" CLIPEDIT="1" FLOP="0" ItemID="1609929502" LOCALX="0" FRTYPE="0" EXTRA="28.3464566929134" SCALETYPE="1" PICART="1" textPathType="0" PLINEART="1">
   <StoryText>
-   <DefaultStyle ALIGN="0" FCOLOR="w"/>
-   <ITEXT FONTSIZE="22" FCOLOR="s" FONT="Atlas Regular Atlas Regular" CH="RECHTLICHES"/>
-   <trail ALIGN="0" LINESP="17"/>
+   <DefaultStyle LINESP="25"/>
+   <ITEXT CH="Unternehmer:" FONTSIZE="14" FONT="Jost* Bold"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Felicitas Pojtinger" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Hirschkopfweg 8" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="72270 Baiersbronn" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="+49 1523 3842326" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="felicitas@pojtinger.com" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="https://felicitas.pojtinger.com" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Redaktion v. i. S. d. P:" FONTSIZE="14" FONT="Jost* Bold"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Kea von Daak" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Musterstraße 34" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="72270 Baiersbronn" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Gestaltung:" FONTSIZE="14" FONT="Jost* Bold"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Felicitas Pojtinger" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Druckerei:" FONTSIZE="14" FONT="Jost* Bold"/>
+   <para LINESP="17"/>
+   <ITEXT CH="knödlerdruck" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Oberdorfstraße 166a" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="72270 Baiersbronn" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Bildnachweise:" FONTSIZE="14" FONT="Jost* Bold"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Sämtliche verwendeten Bilder sind eigene" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Werke oder stehen unter einer CC-BY-SA-" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <ITEXT CH="4.0-kompatiblen Lizenz." FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Erscheinungsjahr:" FONTSIZE="14" FONT="Jost* Bold"/>
+   <para LINESP="17"/>
+   <ITEXT CH="2019" FONTSIZE="14" FONT="Jost* Book"/>
+   <para LINESP="17"/>
+   <para LINESP="17"/>
+   <ITEXT CH="Lizenz:" FONTSIZE="14" FONT="Jost* Bold"/>
+   <para LINESP="17"/>
+   <ITEXT CH="CC-BY-SA-4.0" FONTSIZE="14" FONT="Jost* Book"/>
+   <trail LINESP="17"/>
   </StoryText>
  </ITEM>
- <ITEM BEXTRA="0" PICART="1" gWidth="0" LOCALY="0" copath="M0 0 L515.276 0 L515.276 305.348 L0 305.348 L0 0 Z" BASEOF="0" AUTOTEXT="0" WIDTH="515.275590551181" PLTSHOW="0" OwnPage="1" SCALETYPE="1" ItemID="1826419500" gHeight="0" path="M0 0 L515.276 0 L515.276 305.348 L0 305.348 L0 0 Z" COLUMNS="2" PTYPE="4" NEXTITEM="-1" LOCALROT="0" REXTRA="0" LOCALX="0" XPOS="39.9999999999999" PWIDTH="1" FLOP="0" gYpos="502.370078740157" gXpos="735.276220472441" CLIPEDIT="0" COLGAP="14.1732283464567" textPathType="0" LOCALSCY="1" VAlign="0" YPOS="482.368818897637" PLINEART="1" RATIO="1" FRTYPE="0" BACKITEM="-1" relativePaths="1" LOCALSCX="1" LAYER="0" TEXTRA="0" HEIGHT="305.347716535434" EXTRA="0" textPathFlipped="0">
+ <ITEM textPathFlipped="0" BACKITEM="-1" SOFTSHADOWCOLOR="go" COLGAP="0" SOFTSHADOWSHADE="100" YPOS="28.3464566929133" XPOS="0" NEXTITEM="-1" VAlign="1" ROT="360" SOFTSHADOWERASE="0" gXpos="1092.83601574803" relativePaths="1" LOCALSCX="1" SOFTSHADOWBLURRADIUS="1.41732283464567" copath="M0 0 L595.276 0 L595.276 85.0395 L0 85.0395 L0 0 Z" PWIDTH="1" LOCALSCY="1" BEXTRA="4.25196850393701" LAYER="0" PTYPE="4" gYpos="149.756031496065" HEIGHT="85.0393700787402" gHeight="456.377952755906" SOFTSHADOWOBJTRANS="0" SOFTSHADOWYOFFSET="0" COLUMNS="1" ALIGN="0" gWidth="595.275590551181" REXTRA="28.3464566929134" AUTOTEXT="0" SOFTSHADOWOPACITY="0" WIDTH="595.275590551181" RATIO="1" LOCALROT="0" TEXTRA="8.50393700787402" path="M0 0 L595.276 0 L595.276 85.0394 L0 85.0394 L0 0 Z" ANNAME="Impressum_Sektion_Hybrid_Titel" OwnPage="3" PLTSHOW="0" SOFTSHADOWBLENDMODE="0" BASEOF="0" LOCALY="0" CLIPEDIT="1" FLOP="0" ItemID="1613194238" LOCALX="0" FRTYPE="0" EXTRA="28.3464566929134" SCALETYPE="1" HASSOFTSHADOW="1" PICART="1" textPathType="0" PLINEART="1" SOFTSHADOWXOFFSET="0">
   <StoryText>
-   <DefaultStyle/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Bold" CH="Unternehmer:"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="Felicitas Pojtinger"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="Hirschkopfweg 8"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="72270 Baiersbronn"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="+49 1523 3842326"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="felicitas@pojtinger.com"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="https://felicitas.pojtinger.com"/>
-   <para/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Bold" CH="Redaktion v. i. S. d. P:"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="Kea von Daak"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="Sankenbachstraße"/>
-   <ITEXT CH=" 114"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="72270 Baiersbronn"/>
-   <para/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Bold" CH="Gestaltung:"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="Felicitas Pojtinger"/>
-   <para/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Bold" CH="Druckerei"/>
-   <ITEXT FONT="Jost* Bold" CH=":"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="knödlerdruck"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="Oberdorfstraße 166a"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="72270 Baiersbronn"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Bold" CH="Bildnachweise:"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="Sämtliche verwendeten Bilder sind eigene Werke oder stehen unter einer CC-BY-SA-4.0-kompatiblen Lizenz."/>
-   <para/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Bold" CH="Erscheinungsjahr:"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="2019"/>
-   <para/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Bold" CH="Lizenz:"/>
-   <para/>
-   <ITEXT FONTSIZE="14" FONT="Jost* Book" CH="CC-BY-SA-4.0"/>
-   <trail/>
+   <DefaultStyle ALIGN="0" FCOLOR="w"/>
+   <ITEXT CH="RECHTLICHES" FONTSIZE="22" FONT="Atlas Regular Atlas Regular" FCOLOR="s"/>
+   <trail LINESP="17" ALIGN="0"/>
   </StoryText>
  </ITEM>
 </SCRIBUSELEMUTF8>
