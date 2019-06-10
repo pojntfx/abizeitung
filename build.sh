@@ -11,13 +11,13 @@ function export_as_pdf() {
 }
 
 # Old documents
-for file in ${PWD}/src/downstream/layouts/*.sla; do
+for file in ${PWD}/src/layouts/*.sla; do
     export_as_pdf "${file}"
     mv "${file}.pdf" "${PWD}/public/"
 done
 
 # New single-file documents
-for file in ${PWD}/src/downstream/*.sla; do
+for file in ${PWD}/src/*.sla; do
     export_as_pdf "${file}"
     mv "${file}.pdf" "${PWD}/public/"
 done

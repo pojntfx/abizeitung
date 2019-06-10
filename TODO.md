@@ -3,7 +3,7 @@
 ## Steps
 
 ```plaintext
-- Create the src/downstream/components/Fragmente.sla component
+- Create the src/components/Fragmente.sla component
 - Add front and back page
 - Setup opendrive sync to the upstream
 ```
@@ -27,7 +27,7 @@ Abizeitung/
                 Warum in 10 Jahren nicht beim Klassentreffen
                 Klassenaktivitäten Lehrer und Datum
                 Wegbegleiter
-        downstream/
+        
             components/
                 Farben.sla
                 Logos.sla

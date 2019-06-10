@@ -4,9 +4,9 @@ Source and CI/CD for Abizeitung des Richard-von-Weizsäcker-Gymnasiums Baiersbro
 
 ## Features
 
-- [Atoms](./src/downstream/atoms)
-- [Molecules](./src/downstream/molecules)
-- [Layouts](./src/downstream/layouts)
+- [Atoms](./src/atoms)
+- [Molecules](./src/molecules)
+- [Layouts](./src/layouts)
 
 ## Usage
 
