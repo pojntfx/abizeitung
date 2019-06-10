@@ -10,7 +10,14 @@ function export_as_pdf() {
         "${file}"
 }
 
+# Old documents
 for file in ${PWD}/src/downstream/documents/*.sla; do
+    export_as_pdf "${file}"
+    mv "${file}.pdf" "${PWD}/public/"
+done
+
+# New single-file documents
+for file in ${PWD}/src/downstream/*.sla; do
     export_as_pdf "${file}"
     mv "${file}.pdf" "${PWD}/public/"
 done
