@@ -34,7 +34,7 @@ You should have received a copy of the GNU/Linux Affero General Public License a
 
 [![CC-BY-SA-4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](./LICENSE_MEDIA.md)
 
-Abizeitung des Richard-von-Weizsäcker-Gymnasiums Baiersbronn (C) 2014-2019 Felicitas Pojtinger
+Abizeitung des Richard-von-Weizsäcker-Gymnasiums Baiersbronn (C) 2011-2019 Felicitas Pojtinger
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 

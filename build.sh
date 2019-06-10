@@ -75,7 +75,7 @@ cat >>public/index.html <<EOF
     </div></div>
 EOF
 
-echo "<div class='card mt-3'><div class='card-body'><h5 class='card-title'>Letzte Änderung</h5><p class='card-text'><pre class='pre-scrollable'><code>$(git diff --exit-code HEAD^ HEAD | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g')</code></pre></p></div></div>" >>public/index.html
+echo "<div class='card mt-3'><div class='card-body'><h5 class='card-title'>Letzte Änderung</h5><p class='card-text'><pre class='pre-scrollable'><code>$(git diff --exit-code HEAD^ HEAD | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g' | head -n 100)</code></pre></p></div></div>" >>public/index.html
 
 cat >>public/index.html <<EOF
     </div>
