@@ -3,8 +3,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install flathub org.gimp.GIMP
 flatpak install flathub org.libreoffice.LibreOffice
 flatpak install flathub net.scribus.Scribus
-flatpak install flathub org.vim.Vim
-flatpak install flathub org.gnome.gitg
+flatpak install flathub com.visualstudio.code.oss
 flatpak install flathub org.gnome.Evince
 
 # Fonts
