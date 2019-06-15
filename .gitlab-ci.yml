@@ -18,7 +18,8 @@ before_script:
   - cp /tmp/jost/TrueType/* ~/.local/share/fonts
   - git clone https://github.com/pojntfx/abizeitung.git
   - cd abizeitung
-  - sed -i -e "s%../../../../../../home/pojntfx/Documents/abizeitung/%${PWD}/%g" src/*.sla
+  - git lfs fetch
+  - sed -i -e "s%../../../../../../home/pojntfx/Documents/abizeitung/%${PWD}/%g" src/**/*.sla
   - mkdir -p public/
 
 pages:
