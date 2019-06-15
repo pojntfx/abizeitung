@@ -16,9 +16,8 @@ before_script:
   - wget https://indestructibletype.com/Jost.zip -O /tmp/Jost.zip
   - unzip /tmp/Jost.zip -d /tmp/jost
   - cp /tmp/jost/TrueType/* ~/.local/share/fonts
-  - git clone https://github.com/pojntfx/abizeitung.git
-  - cd abizeitung
-  - git lfs fetch
+  - git clone https://github.com/pojntfx/abizeitung.git .
+  - git lfs pull
   - sed -i -e "s%../../../../../../home/pojntfx/Documents/abizeitung/%${PWD}/%g" src/**/*.sla
   - mkdir -p public/
 
