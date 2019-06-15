@@ -1,18 +1,24 @@
 image: ubuntu:latest
 
+variables:
+  GIT_STRATEGY: none
+
 before_script:
   - export DEBIAN_FRONTEND=noninteractive
   - apt update
   - apt install -y software-properties-common
   - add-apt-repository -y ppa:scribus/ppa
   - apt update
-  - apt install -y scribus-trunk xvfb unzip wget git
+  - apt install -y scribus-trunk xvfb unzip wget git git-lfs
   - mkdir -p ~/.local/share/fonts/
   - wget https://www.freebestfonts.com/download?fn=284 -O ~/.local/share/fonts/AtlasRegular.ttf
   - wget https://www.freebestfonts.com/download?fn=283 -O ~/.local/share/fonts/AtlasSolid.ttf
   - wget https://indestructibletype.com/Jost.zip -O /tmp/Jost.zip
   - unzip /tmp/Jost.zip -d /tmp/jost
   - cp /tmp/jost/TrueType/* ~/.local/share/fonts
+  - git clone https://github.com/pojntfx/abizeitung.git
+  - cd abizeitung
+  - sed -i -e "s%../../../../../../home/pojntfx/Documents/abizeitung/%${PWD}/%g" src/*.sla
   - mkdir -p public/
 
 pages:

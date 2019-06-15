@@ -10,7 +10,7 @@ Source and CI/CD for Abizeitung des Richard-von-Weizsäcker-Gymnasiums Baiersbro
 
 ## Usage
 
-See [dependencies](./setup.sh).
+See [setup](./setup.sh).
 
 ## Licenses
 

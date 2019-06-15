@@ -1,10 +1,10 @@
 # Apps
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.gimp.GIMP
-flatpak install flathub org.libreoffice.LibreOffice
-flatpak install flathub net.scribus.Scribus
-flatpak install flathub com.visualstudio.code.oss
-flatpak install flathub org.gnome.Evince
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
+flatpak install flathub org.gimp.GIMP -y
+flatpak install flathub org.libreoffice.LibreOffice -y
+flatpak install flathub net.scribus.Scribus -y
+flatpak install flathub com.visualstudio.code.oss -y
+flatpak install flathub org.gnome.Evince -y
 
 # Fonts
 mkdir -p ~/.local/share/fonts/
