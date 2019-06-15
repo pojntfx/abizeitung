@@ -19,6 +19,7 @@ before_script:
   - git clone https://github.com/pojntfx/abizeitung.git .
   - git lfs pull
   - sed -i -e "s%../../../../../../home/pojntfx/Documents/abizeitung/%${PWD}/%g" src/**/*.sla
+  - sed -i -e "s%../../../../../../home/pojntfx/Documents/abizeitung/%${PWD}/%g" src/*.sla
   - mkdir -p public/
 
 pages:
