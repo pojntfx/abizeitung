@@ -10,13 +10,6 @@ function export_as_pdf() {
         "${file}"
 }
 
-# Old documents
-for file in ${PWD}/src/layouts/*.sla; do
-    export_as_pdf "${file}"
-    mv "${file}.pdf" "${PWD}/public/"
-done
-
-# New single-file documents
 for file in ${PWD}/src/*.sla; do
     export_as_pdf "${file}"
     mv "${file}.pdf" "${PWD}/public/"
