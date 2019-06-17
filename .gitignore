@@ -1,4 +1,5 @@
 dependencies/
 public/
+workspace/
 *_autosave*.sla
 .ScribusThumbs
