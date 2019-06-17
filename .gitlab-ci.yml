@@ -9,7 +9,7 @@ before_script:
   - apt install -y software-properties-common
   - add-apt-repository -y ppa:scribus/ppa
   - apt update
-  - apt install -y scribus-trunk xvfb unzip wget git git-lfs
+  - apt install -y scribus-trunk xvfb unzip wget git git-lfs ghostscript
   - mkdir -p ~/.local/share/fonts/
   - wget https://www.freebestfonts.com/download?fn=284 -O ~/.local/share/fonts/AtlasRegular.ttf
   - wget https://www.freebestfonts.com/download?fn=283 -O ~/.local/share/fonts/AtlasSolid.ttf
@@ -19,6 +19,7 @@ before_script:
   - git clone https://github.com/pojntfx/abizeitung.git .
   - git lfs pull
   - sed -i -e "s%../../../../../../home/pojntfx/Documents/abizeitung/%${PWD}/%g" src/*.sla
+  - mkdir -p workspace/
   - mkdir -p public/
 
 pages:

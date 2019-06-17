@@ -12,7 +12,18 @@ function export_as_pdf() {
 
 for file in ${PWD}/src/*.sla; do
     export_as_pdf "${file}"
-    mv "${file}.pdf" "${PWD}/public/"
+    mv "${file}.pdf" "${PWD}/workspace/"
+done
+
+function compress_pdf() {
+    local old_file="${1}"
+    local new_file="${2}"
+    gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -sOutputFile="${new_file}" "${old_file}"
+}
+
+for file in ${PWD}/workspace/*.pdf; do
+    compress_pdf "${file}" "${file}_compressed.pdf"
+    mv "${file}_compressed.pdf" "${PWD}/public/"
 done
 
 cat >public/index.html <<EOF
