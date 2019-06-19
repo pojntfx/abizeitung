@@ -18,7 +18,7 @@ done
 function compress_pdf() {
     local old_file="${1}"
     local new_file="${2}"
-    gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -sOutputFile="${new_file}" "${old_file}"
+    gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -sOutputFile="${new_file}" "${old_file}"
 }
 
 for file in ${PWD}/workspace/*.pdf; do
