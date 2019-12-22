@@ -1,8 +1,5 @@
 image: ubuntu:latest
 
-variables:
-  GIT_STRATEGY: none
-
 before_script:
   - export DEBIAN_FRONTEND=noninteractive
   - apt update
